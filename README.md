@@ -94,8 +94,6 @@ supply_chain_data_system/
 └── docs/                       # Documentation & architecture
 
 
-📊 Dashboard Screenshots Preview
-![Overall Sales & Order Trends](<Screenshot 2026-02-25 221414.png>) ![Overall Sales & Order Trends](<Screenshot 2026-02-25 221429.png>)
 
 🌟 Future Enhancements
 
