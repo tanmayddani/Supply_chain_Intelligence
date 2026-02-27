@@ -17,24 +17,11 @@ Streamlit Dashboard
 
 🗂 Data Model
 Fact Table
-
 fact_orders – Stores transactional sales/order data
-
 Dimension Tables
-
 dim_product – Product metadata
-
 dim_customer – Customer information
-
 dim_people – people dimension
-
-🛠 Tech Stack
-Layer	Technology	Purpose
-ETL & Transformation	Python / Pandas	Data cleaning, transformation, surrogate keys
-Data Warehouse	Google BigQuery	Star schema storage & analytics
-Dashboard	Streamlit / Plotly	Interactive visualizations
-Cloud SDK	Google Cloud SDK	Authentication & access control
-
 
 🚀 Run Locally
 1️⃣ Clone & Setup
@@ -65,15 +52,10 @@ dim_people
 py -m streamlit run dashboards\app.py
 
 Dashboard provides:
-
 📈 Revenue & order trends
-
 🏆 Top customers & segments
-
 🥧 Product category & sub-category distribution
-
 📊 KPIs: Total Orders, Avg Order Value, Customer Count
-
 🔎 Filters for date range, category, and customer segment
 
 📂 Project Structure
@@ -93,15 +75,8 @@ supply_chain_data_system/
 ├── sql/                        # MySQL & BigQuery queries
 └── docs/                       # Documentation & architecture
 
-
-
-🌟 Future Enhancements
-
-Add CI/CD pipeline for automated deployments
-
-Docker containerization for reproducibility
-
-Automated testing for ETL & dashboard
-
-Deploy Streamlit dashboard to Streamlit Cloud
+The system enables monitoring of vendor performance, order efficiency, and inventory health.
+It converts raw data into structured insights, helping improve operational efficiency and data-driven decisionmaking.
+The pipeline can be automated using schedulers for daily batch processing and extended with real-time data
+streaming or demand forecasting models.
 
