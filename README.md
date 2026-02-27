@@ -107,4 +107,3 @@ Automated testing for ETL & dashboard
 
 Deploy Streamlit dashboard to Streamlit Cloud
 
-![alt text](<Screenshot 2026-02-27 124803.png>) ![alt text](<Screenshot 2026-02-27 124820.png>) ![alt text](<Screenshot 2026-02-27 124835.png>) ![alt text](<Screenshot 2026-02-27 124906.png>)
