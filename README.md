@@ -58,25 +58,7 @@ Dashboard provides:
 📊 KPIs: Total Orders, Avg Order Value, Customer Count
 🔎 Filters for date range, category, and customer segment
 
-📂 Project Structure
-supply_chain_data_system/
-├── requirements.txt           # Python dependencies
-├── dashboards/
-│   └── app.py                 # Streamlit dashboard
-├── data/
-│   ├── global_superstore.xlsx # Raw dataset
-│   └── processed_data.csv     # Cleaned dataset
-├── scripts/
-│   ├── etl.py                 # Main ETL pipeline
-│   ├── load_api.py            # API extraction
-│   ├── load_excel.py          # Excel extraction
-│   ├── load_raw_sql.py        # Load to SQL
-│   └── transform.py           # Data transformation
-├── sql/                        # MySQL & BigQuery queries
-└── docs/                       # Documentation & architecture
-
 The system enables monitoring of vendor performance, order efficiency, and inventory health.
 It converts raw data into structured insights, helping improve operational efficiency and data-driven decisionmaking.
 The pipeline can be automated using schedulers for daily batch processing and extended with real-time data
 streaming or demand forecasting models.
-
